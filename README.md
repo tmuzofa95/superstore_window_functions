@@ -1,0 +1,83 @@
+# Superstore Window Functions — Advanced SQL
+
+**Author:** Matthew Muzofa
+
+---
+
+## 📌 Project Overview
+
+This project demonstrates advanced SQL skills by applying window functions to the Superstore retail dataset. Window functions are widely used in real business environments to perform complex calculations across rows of data without collapsing results into groups. Each query is designed to reflect the type of analysis a data analyst would perform in a professional setting.
+
+---
+
+## 🗃️ Dataset
+
+- **Dataset:** Sample Superstore Retail Dataset
+- **Tool:** Microsoft SQL Server Management Studio (SSMS)
+- **Rows:** 9,994 records
+- **Data includes:** Orders, customers, products, shipping details, sales, discounts and profit
+
+---
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Microsoft SQL Server (SSMS) | Database querying and analysis |
+
+---
+
+## 📊 Queries Included
+
+| # | Query | Function | Description |
+|---|-------|----------|-------------|
+| 1 | Rank orders by sales amount | `ROW_NUMBER()` | Assigns a unique rank to each order from highest to lowest sales |
+| 2 | Rank customers by total profit | `RANK()` | Ranks customers based on total profit, sharing ranks on ties |
+| 3 | Rank products within each category | `DENSE_RANK()` | Ranks products by sales within their category with no rank gaps |
+| 4 | Compare monthly sales to previous month | `LAG()` | Shows month over month sales change by looking at the previous month |
+| 5 | Compare monthly sales to next month | `LEAD()` | Shows forward looking sales comparison by looking at the next month |
+| 6 | Running total of sales over time | `SUM() OVER()` | Calculates a cumulative running total of sales month by month |
+
+---
+
+## 💡 Key Insights
+
+- **Tracy Blumstein** had the highest single order sales but was the **least profitable customer** overall — showing that high sales don't always mean high profit
+- **Janet Molinari** was the most profitable customer despite not having the highest sales
+- Monthly sales show significant fluctuations year over year with peaks in **September 2015** and **December 2016**
+- The running total reached **$21,504** by the end of 2017
+
+---
+
+## 📁 File Structure
+
+```
+superstore-window-functions/
+│
+└── superstore_window_functions.sql    # All 6 window function queries with comments
+```
+
+---
+
+## 🚀 How to Run
+
+1. Set up the Superstore database in SSMS
+2. Open `superstore_window_functions.sql`
+3. Run each query individually to see the results
+
+---
+
+## 🔑 Window Functions Explained
+
+| Function | What it does |
+|----------|-------------|
+| `ROW_NUMBER()` | Assigns a unique number to every row with no ties |
+| `RANK()` | Ranks rows but skips numbers when there are ties |
+| `DENSE_RANK()` | Ranks rows without skipping numbers on ties |
+| `LAG()` | Accesses the value from the previous row |
+| `LEAD()` | Accesses the value from the next row |
+| `SUM() OVER()` | Calculates a running cumulative total |
+
+---
+
+*This project is part of my data analyst portfolio. Feel free to explore the queries and reach out if you have any feedback.*
