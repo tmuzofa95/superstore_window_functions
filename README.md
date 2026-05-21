@@ -1,4 +1,4 @@
-# Superstore Window Functions — Advanced SQL
+# Superstore Window Functions - Advanced SQL
 
 **Author:** Matthew Muzofa
 
@@ -68,17 +68,3 @@ superstore-window-functions/
 
 ---
 
-## 🔑 Window Functions Explained
-
-| Function | What it does |
-|----------|-------------|
-| `ROW_NUMBER()` | Assigns a unique number to every row with no ties |
-| `RANK()` | Ranks rows but skips numbers when there are ties |
-| `DENSE_RANK()` | Ranks rows without skipping numbers on ties |
-| `LAG()` | Accesses the value from the previous row |
-| `LEAD()` | Accesses the value from the next row |
-| `SUM() OVER()` | Calculates a running cumulative total |
-
----
-
-*This project is part of my data analyst portfolio. Feel free to explore the queries and reach out if you have any feedback.*
