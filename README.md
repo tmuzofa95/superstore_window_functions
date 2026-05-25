@@ -14,7 +14,6 @@ This project demonstrates advanced SQL skills by applying window functions to th
 
 - **Dataset:** Sample Superstore Dataset
 - **Tool:** Microsoft SQL Server Management Studio (SSMS)
-- **Rows:** 9,994 records
 - **Data includes:** Orders, customers, products, shipping details, sales, discounts, and profit
 
 ---
@@ -54,16 +53,16 @@ This project demonstrates advanced SQL skills by applying window functions to th
 ```
 superstore-window-functions/
 │
-├── SuperstoreDB.sql                   # Full database script to create and populate the Superstore database
-└── superstore_window_functions.sql    # All 6 window function queries with comments
+├── SuperstoreDB.sql                   # Script to create and populate the Superstore database
+└── superstore_window_functions.sql    # 6 window function queries with comments
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Open **SuperstoreDB.sql** in SSMS and run it to create and populate the Superstore database
-2. Open `superstore_window_functions.sql`
+1. Open SuperstoreDB.sql in SSMS and run it to create and populate the Superstore database
+2. Open superstore_window_functions.sql
 3. Run each query individually to see the results
 
 ---
