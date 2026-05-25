@@ -1,4 +1,4 @@
-# Superstore Window Functions - Advanced SQL
+# Superstore - Advanced SQL
 
 **Author:** Matthew Muzofa
 
