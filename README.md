@@ -30,21 +30,21 @@ This project demonstrates advanced SQL skills by applying window functions to th
 
 | # | Query | Function | Description |
 |---|-------|----------|-------------|
-| 1 | Rank orders by sales amount | `ROW_NUMBER()` | Assigns a unique rank to each order from highest to lowest sales |
-| 2 | Rank customers by total profit | `RANK()` | Ranks customers based on total profit, sharing ranks on ties |
-| 3 | Rank products within each category | `DENSE_RANK()` | Ranks products by sales within their category with no rank gaps |
-| 4 | Compare monthly sales to previous month | `LAG()` | Shows month over month sales change by looking at the previous month |
-| 5 | Compare monthly sales to next month | `LEAD()` | Shows forward looking sales comparison by looking at the next month |
-| 6 | Running total of sales over time | `SUM() OVER()` | Calculates a cumulative running total of sales month by month |
+| 1 | Rank orders by sales amount | ROW_NUMBER() | Assigns a unique rank to each order from highest to lowest sales |
+| 2 | Rank customers by total profit | RANK() | Ranks customers based on total profit |
+| 3 | Rank products within each category | DENSE_RANK() | Ranks products by sales within their category with no rank gaps |
+| 4 | Compare monthly sales to previous month | LAG() | Shows month-over-month sales change by looking at the previous month |
+| 5 | Compare monthly sales to next month | LEAD() | Shows forward-looking sales comparison by looking at the next month |
+| 6 | Running total of sales over time | SUM() OVER() | Calculates a cumulative running total of sales month by month |
 
 ---
 
 ## 💡 Key Insights
 
-- **Tracy Blumstein** had the highest single order sales but was the **least profitable customer** overall — showing that high sales don't always mean high profit
-- **Janet Molinari** was the most profitable customer despite not having the highest sales
-- Monthly sales show significant fluctuations year over year with peaks in **September 2015** and **December 2016**
-- The running total reached **$21,504** by the end of 2017
+- Tracy Blumstein had the highest single order sales but was the least profitable customer overall, showing that high sales don't always mean high profit
+- Janet Molinari was the most profitable customer despite not having the highest sales
+- Monthly sales show significant fluctuations year over year, with peaks in September 2015 and December 2016
+- The running total eventually reached $21,504 by the end of 2017
 
 ---
 
