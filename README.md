@@ -6,16 +6,16 @@
 
 ## 📌 Project Overview
 
-This project demonstrates advanced SQL skills by applying window functions to the Superstore retail dataset. Window functions are widely used in real business environments to perform complex calculations across rows of data without collapsing results into groups. Each query is designed to reflect the type of analysis a data analyst would perform in a professional setting.
+This project demonstrates advanced SQL skills by applying window functions to the Superstore dataset. Window functions are widely used in real business environments to perform complex calculations across rows of data without collapsing results into groups. Each query is designed to reflect the type of analysis a data analyst would perform in a professional setting.
 
 ---
 
 ## 🗃️ Dataset
 
-- **Dataset:** Sample Superstore Retail Dataset
+- **Dataset:** Sample Superstore Dataset
 - **Tool:** Microsoft SQL Server Management Studio (SSMS)
 - **Rows:** 9,994 records
-- **Data includes:** Orders, customers, products, shipping details, sales, discounts and profit
+- **Data includes:** Orders, customers, products, shipping details, sales, discounts, and profit
 
 ---
 
